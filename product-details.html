@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Hassle Free Ecommerce</title>
+    <link rel="icon" href="assets/img/icon.png" type="image/gif" sizes="16x16">
+    <link rel="icon" href="assets/img/icon.png" type="image/gif" sizes="18x18">
+    <link rel="icon" href="assets/img/icon.png" type="image/gif" sizes="20x20">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.all.min.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/dataTable.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/defult.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+</head>
+
+<body>
+    <header class="header-area">
+        <div class="header-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="d-none d-lg-block">
+                            <div class="header-menu">
+                                <div class="desktop_logo">
+                                    <a href="index.html"><img src="assets/img/logo.png" alt="Logo"></a>
+                                </div>
+                                <div class="header-horizontal-menu">
+                                    <ul class="menu-content">
+                                        <li class="active"><a href="index.html">Home</a></li>
+                                        <li><a href="shop.html">Shop</a></li> 
+                                    </ul>
+                                </div>
+                                <div class="call_button">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#trackOrder"><i
+                                            class="fas fa-search-location"></i> Track Order</a>
+                                </div>
+                            </div> <!-- header menu -->
+                        </div> <!-- desktop nav -->
+                        <!--Mobile Nav Menu-->
+                        <div class="d-lg-none">
+                            <!--Bar-->
+                            <div class="mobile-toggle">
+                                <div class="desktop_logo">
+                                    <a href="index.html"><img src="assets/img/logo.png" alt="Logo"></a>
+                                </div>
+                                <div class="call_button">
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#trackOrder"><i
+                                            class="fas fa-search-location"></i> Track Order</a>
+                                </div>
+                                <a class="mobile-menu-open" href="javascript:;"><i class="fas fa-bars"></i></a>
+                            </div>
+                            <div class="mobile-off-canvas-menu">
+                                <div class="mobile-logo">
+                                    <a href="index.html"><img src="assets/img/logo.png" alt="logo"></a>
+                                </div> <!-- mobile logo -->
+                                <div class="mobile-canvas-close close-mobile-menu">
+                                    <p>Menu<i class="fas fa-times"></i></p>
+                                </div>
+                                <div class="mobile-main-menu">
+                                    <ul class="menu-content">
+                                        <li><a href="index.html">Home</a></li> 
+                                        <li><a href="shop.html">Shop</a></li> 
+                                    </ul>
+                                </div> <!-- mobile main menu -->
+                            </div> <!-- mobile off canvas menu -->
+
+                            <div class="overlay"></div>
+                        </div>
+                        <!-- mobile nav -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <div class="flex-wrapper">
+        <!-- TrackOrder modal -->
+        <div class="modal fade" id="trackOrder" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Track Order</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="input-group mb-3">
+                            <input required type="text" id="orderId" class="form-control" placeholder="Order ID">
+                            <button class="btn btn-outline-primary" type="button"><i
+                                    class="fas fa-search-location"></i></button>
+                        </div>
+
+                        <div id="orderDetails">
+
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- TrackOrder modal end -->
+
+        <section class="page-wrapper">
+            <div class="container-md page-bg">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="page-content">
+                            <div class="main-title">
+                                <h1>We Are The World Class <span>Number E-Commerce</span> Company From the best</h1>
+                            </div>
+                            <div class="product-image">
+                                <img src="assets/img/product/product-image.png" alt="product image">
+                            </div>
+                            <div class="text-center my-5">
+                                <a onclick="scrollToSection('order-form')" href="javascript:void()" class="view-btn"><i
+                                        class="fas fa-shopping-cart"></i> Order Now</a>
+                            </div>
+                            <div class="listing-wrapper">
+                                <div class="heading">
+                                    <h2>why we are</h2>
+                                </div>
+                                <ul class="regular-listing">
+                                    <li>It is a long established fact that a reader will be distracted by the readable
+                                        content</li>
+                                    <li>It is a long established fact that a reader will be distracted by the readable
+                                        content</li>
+                                    <li>It is a long established fact that a reader will be distracted by the readable
+                                        content</li>
+                                    <li>It is a long established fact that a reader will be distracted by the readable
+                                        content</li>
+                                    <li>It is a long established fact that a reader will be distracted by the readable
+                                        content</li>
+                                    <li>It is a long established fact that a reader will be distracted by the readable
+                                        content</li>
+                                    <li>It is a long established fact that a reader will be distracted by the readable
+                                        content</li>
+                                    <li>It is a long established fact that a reader will be distracted by the readable
+                                        content</li>
+                                </ul>
+                            </div>
+                            <div class="listing-wrapper">
+                                <div class="heading">
+                                    <h2>why you believe us</h2>
+                                </div>
+                                <ul class="regular-listing">
+                                    <li>It is a long established fact that a reader will be distracted by the readable
+                                        content</li>
+                                    <li>It is a long established fact that a reader will be distracted by the readable
+                                        content</li>
+                                    <li>It is a long established fact that a reader will be distracted by the readable
+                                        content</li>
+                                    <li>It is a long established fact that a reader will be distracted by the readable
+                                        content</li>
+                                    <li>It is a long established fact that a reader will be distracted by the readable
+                                        content</li>
+                                    <li>It is a long established fact that a reader will be distracted by the readable
+                                        content</li>
+                                    <li>It is a long established fact that a reader will be distracted by the readable
+                                        content</li>
+                                    <li>It is a long established fact that a reader will be distracted by the readable
+                                        content</li>
+                                </ul>
+                            </div>
+                            <div class="text-center my-5">
+                                <a onclick="scrollToSection('order-form')" href="javascript:void()" class="view-btn"><i
+                                        class="fas fa-shopping-cart"></i> Order Now</a>
+                            </div>
+
+                            <div class="text-area-wrapper">
+                                <div class="heading">
+                                    <h2>About T-Shirt Product</h2>
+                                </div>
+                                <div class="text-area-content">
+                                    <h2>Lorem ipsum dolor sit amet.</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem impedit
+                                        recusandae veniam eaque. Non laborum nemo omnis debitis molestiae consectetur
+                                        iusto ullam, dolorum aperiam dolor sit amet, consectetur adipisicing elit.
+                                        Dolorem impedit
+                                        recusandae veniam eaque. Non laborum nemo omnis debitis molestiae consectetur
+                                        iusto ullam, dolorum aperiamdolor sit amet, consectetur adipisicing elit.
+                                        Dolorem impedit
+                                        recusandae veniam eaque. Non laborum nemo omnis debitis molestiae consectetur
+                                        iusto ullam, dolorum aperiam repellat porro in cumque repudiandae! Architecto.
+                                    </p>
+                                    <ul>
+                                        <li>Lorem ipsum dolor sit amet consectetur.</li>
+                                        <li>Lorem ipsum dolor sit amet consectetur.</li>
+                                        <li>Lorem ipsum dolor sit amet consectetur.</li>
+                                        <li>Lorem ipsum dolor sit amet consectetur.</li>
+                                        <li>Lorem ipsum dolor sit amet consectetur.</li>
+                                        <li>Lorem ipsum dolor sit amet consectetur.</li>
+                                    </ul>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolore
+                                        perspiciatis obcaecati harum est fugiat quaerat, vel eveniet, veniam non eos sit
+                                        corrupti quibusdam accusantium culpa tempora dolores? Non quod amet voluptate
+                                        reprehenderit porro cumque? dolor sit amet, consectetur adipisicing elit.
+                                        Dolorem impedit
+                                        recusandae veniam eaque. Non laborum nemo omnis debitis molestiae consectetur
+                                        iusto ullam, dolorum aperiamdolor sit amet, consectetur adipisicing elit.
+                                        Dolorem impedit
+                                        recusandae veniam eaque. Non laborum nemo omnis debitis molestiae consectetur
+                                        iusto ullam, dolorum aperiam</p>
+                                </div>
+                            </div>
+
+                            <div class="order-section" id="order-form">
+                                <div class="heading">
+                                    <h2>Order Now</h2>
+                                </div>
+                                <div class="order-section-content">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="order-form">
+                                                <form>
+                                                    <div class="mb-3">
+                                                        <label for="name" class="form-label">Your Name</label>
+                                                        <input type="text" class="form-control" id="name"
+                                                            placeholder="Your Name">
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="phone" class="form-label">Your Phone</label>
+                                                        <input type="text" class="form-control" id="phone"
+                                                            placeholder="Your Phone">
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="address" class="form-label">Your Address</label>
+                                                        <input type="text" class="form-control" id="address"
+                                                            placeholder="Your Full Address">
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="exact_location" class="form-label">Your Exact
+                                                            Location</label>
+                                                        <input type="text" class="form-control" id="exact_location"
+                                                            placeholder="Your Exact Location">
+                                                    </div>
+                                                </form>
+                                                <div class="order-small-section">
+                                                    <h3 class="title">Quantity</h3>
+                                                    <div class="cart_update">
+                                                        <span class="minus"><i class="fas fa-minus"></i></span>
+                                                        <input type="text" value="1" readonly />
+                                                        <span class="plus"><i class="fas fa-plus"></i></span>
+                                                    </div>
+                                                </div>
+                                                <div class="order-small-section">
+                                                    <h3 class="title">Size</h3>
+                                                    <div class="product_size">
+                                                        <div class="item">
+                                                            <input type="radio" name="size" id="s">
+                                                            <label for="s">S</label>
+                                                        </div>
+                                                        <div class="item">
+                                                            <input type="radio" name="size" id="m">
+                                                            <label for="m">M</label>
+                                                        </div>
+                                                        <div class="item">
+                                                            <input type="radio" name="size" id="x">
+                                                            <label for="x">X</label>
+                                                        </div>
+                                                        <div class="item">
+                                                            <input type="radio" name="size" id="xl">
+                                                            <label for="xl">XL</label>
+                                                        </div>
+                                                        <div class="item">
+                                                            <input type="radio" name="size" id="xxl">
+                                                            <label for="xxl">XXL</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="order-small-section">
+                                                    <h3 class="title">Colour</h3>
+                                                    <div class="product_color">
+                                                        <div class="item">
+                                                            <input type="radio" name="color" id="merun">
+                                                            <label for="merun">Merun</label>
+                                                        </div>
+                                                        <div class="item">
+                                                            <input type="radio" name="color" id="black">
+                                                            <label for="black">Black</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="cart-count">
+                                                <h3>All Carts (04 )</h3>
+                                                <div class="item">
+                                                    <span>Subtotal</span>
+                                                    <span>$600.00</span>
+                                                </div>
+                                                <div class="item">
+                                                    <span>Discount</span>
+                                                    <span>$100.00</span>
+                                                </div>
+                                                <div class="item">
+                                                    <span>Delivery</span>
+                                                    <span>$00.00</span>
+                                                </div>
+                                                <div class="item total">
+                                                    <span>Total</span>
+                                                    <span>$700.00</span>
+                                                </div>
+                                                <div class="confirm_button">
+                                                    <button>Confirm Now</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- footer area -->
+        <footer class="footer_section">
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5 col-md-6">
+                            <div class="footer-widget-1">
+                                <div class="logo">
+                                    <a href="index.html"><img src="assets/img/footer-logo.png"
+                                            alt="Footer Logo here"></a>
+                                </div>
+                                <p>It is a long established fact that a reader will be distracted by the readable
+                                    content of
+                                    a page when looking at its layout. The point of using Lorem Ipsum is that it has a
+                                    more-or-less </p>
+                                <ul class="footer_menu">
+                                    <li><a href="#"><i class="fas fa-map-marker-alt"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-6">
+                            <div class="footer-widget-2">
+                                <h3 class="widget_title">Menu</h3>
+                                <ul class="widget_menu">
+                                    <li><a href="#">Our Portfolio</a></li>
+                                    <li><a href="#">Our services</a></li>
+                                    <li><a href="#">Clients Review</a></li>
+                                    <li><a href="#">Our Portfolio</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-6">
+                            <div class="footer-widget-3">
+                                <h3 class="widget_title">Get in touch</h3>
+                                <ul class="widget_menu">
+                                    <li><a href="#">Contact</a></li>
+                                    <li><a href="#">Register Now</a></li>
+                                    <li><a href="#">Clients Review</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="footer-widget-4">
+                                <h3 class="widget_title">Contact</h3>
+                                <ul class="widget_menu">
+                                    <li><a href="#"><i class="fas fa-phone-alt"></i> +00 888 645 586</a></li>
+                                    <li><a href="#"><i class="fas fa-envelope"></i> mdasraf1du18@gmail.com</a></li>
+                                    <li><a href="#"><i class="fas fa-map-marker-alt"></i> Bashundhara, 1200 , Dhaka </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>@2024 All Rights Reserved. Developed by <a href="https://innovainst.com">Innova it Institute</a></p>
+            </div>
+        </footer>
+    </div>
+
+
+    <!-- Js File -->
+    <script src="assets/js/modernizr.min.js"></script>
+    <script src="assets/js/jquery-3.6.1.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/jquery.waypoints.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.nav.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/mixitup.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/dataTables.js"></script>
+    <script src="assets/js/dataTables.bootstrap5.js"></script>
+    <script src="assets/js/slick.js"></script>
+    <script src="assets/js/menu.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,221 @@
+/* 
+@media only screen and (min-width: 1200px){
+	.container {
+		width: 1200px;
+	}
+
+} */
+@media only screen and (max-width: 1400px) {
+	.product-item .image-area { 
+		max-height: 210px;
+		min-height: 210px; 
+	}
+	.product-item .content-area .product-title {
+		font-size: 20px; 
+	}
+}
+@media only screen and (max-width: 1200px) {
+	.slider_controlar i.prev::after { 
+		width: 150px; 
+	}
+	.slider_controlar i.next::after { 
+		width: 150px; 
+	}
+	.page-title-section {
+		padding: 80px 0; 
+	}
+}
+@media only screen and (min-width: 992px) and (max-width: 1400px) {
+	 
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) { 
+	.header-horizontal-menu .menu-content li a {
+		padding: 0 10px;
+		font-weight: 400;
+		font-size: 16px;
+	} 
+}
+
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+	.slider_controlar i.prev::after { 
+		width: 100px; 
+	}
+	.slider_controlar i.next::after { 
+		width: 100px; 
+	}
+	
+}
+
+
+@media all and (max-width:991px) {
+	.header-bottom {
+		padding: 10px 0;
+	}
+	.mobile-logo a img {
+		width: 100px;
+		margin: 0 auto;
+		display: flex;
+		padding: 10px;
+	} 
+	 
+	.product-section {
+		padding: 60px 0;
+	}
+	.about-section {
+		padding: 60px 0; 
+	}
+	.about-section .description {
+		width: 100%; 
+	}
+	.contact-section {
+		padding: 60px 0; 
+	}
+	.footer-top {
+		padding: 60px 0 58px;
+	}
+	.slider_controlar i.prev {
+		top: 103%;
+		left: 50%;
+		transform:translateX(-50%)
+	}
+	.slider_controlar i.next {
+		top: 103%;
+		right: 40%;
+		transform:translateX(-50%)
+	}
+	 
+	.page-title-section {
+		padding: 60px 0;
+	}
+	.page-bg {
+		padding: 60px 0; 
+	}
+	.listing-wrapper ul.regular-listing li {
+		font-size: 18px; 
+		padding: 10px 15px; 
+	}
+}
+
+
+
+@media (max-width: 767px) {
+	 
+	h2 {
+		font-size: 30px;
+	}
+
+	.pt-20 {
+		padding-top: 10px;
+	} 
+	.slider_controlar { 
+		margin-bottom: 20px;
+	}	 
+	.footer_section .widget_title {
+		font-size: 20px; 
+		margin-bottom: 25px;
+		margin-top: 30px;
+	}
+	.footer-widget-1 p { 
+		margin: 32px 0px 32px 0;
+	} 
+
+	.section-title h2 {
+		font-size: 30px; 
+	}
+	.product-item .image-area {
+		max-height: 200px;
+		min-height: 200px;
+	} 
+	.slider_controlar i.prev {
+		top: 101%;
+		left: 46%; 
+	}
+	.slider_controlar i.next {
+		top: 101%;
+		right: 38%; 
+	}
+	.page-bg {
+		padding: 40px 15px;
+		background: #ffffff;
+	}
+	 
+}
+ 
+
+@media all and (max-width:575px) { 
+	.slider_controlar i.prev::after { 
+		width: 100px; 
+	}
+	.slider_controlar i.next::after { 
+		width: 100px; 
+	} 
+
+	.product-section {
+		padding: 40px 0;
+	}
+	.footer-top {
+		padding: 40px 0 50px;
+	}
+	.about-section {
+		padding: 40px 0; 
+	}
+	.contact-section {
+		padding: 40px 0; 
+	}
+	.product-item .content-area .order-btn { 
+		padding: 9px 12px; 
+	}
+	.view-btn { 
+		padding: 10px 12px; 
+	}
+	.page-title-section {
+		padding: 30px 0;
+	}
+	.page-title-section .page-title { 
+		font-size: 35px; 
+	}
+	.page-content .main-title h1 {
+		font-size: 25px; 
+		margin-bottom: 30px;
+	}
+	.page-bg {
+		padding: 40px 10px; 
+	}
+}
+
+@media all and (max-width:520px) {
+	.mobile-toggle .call_button a, .header-menu .call_button a { 
+		padding: 8px;
+		margin-left: 0px; 
+	}
+	 
+}
+
+@media all and (max-width:490px) {
+ 
+	.mobile-logo a img {
+		width: 120px;
+	}
+
+	.mobile-logo a img {
+		width: 83px;
+		margin: 0 auto;
+		display: flex;
+		padding: 10px;
+	}
+
+	.section-title h2 {
+		font-size: 30px; 
+		margin-bottom: 20px;
+	}
+	.slider_controlar i.prev {
+		top: 101%;
+		left: 44%; 
+	}
+	.slider_controlar i.next {
+		top: 101%;
+		right: 35%; 
+	}
+	  
+}
