@@ -83,6 +83,17 @@
 			 
 		]
 	});
+	// Product Slider 
+	$('.product-slider').slick({
+		dots: false,
+		infinite: true,
+		speed: 1000,
+		autoplay: false,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		prevArrow: $('.prev'),
+		nextArrow: $('.next'), 
+	});
 
 
 }(jQuery));

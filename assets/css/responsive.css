@@ -71,6 +71,9 @@
 	.contact-section {
 		padding: 60px 0; 
 	}
+	.product-details {
+		padding: 60px 0;
+	}
 	.footer-top {
 		padding: 60px 0 58px;
 	}
@@ -152,6 +155,9 @@
 	} 
 
 	.product-section {
+		padding: 40px 0;
+	}
+	.product-details {
 		padding: 40px 0;
 	}
 	.footer-top {

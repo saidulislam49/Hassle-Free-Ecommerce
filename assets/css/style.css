@@ -1201,6 +1201,7 @@ Shop page
 .order-small-section .product_size {
 	display: flex;
 	align-items: center;
+	flex-wrap: wrap;
 }
 
 .order-small-section .product_color .item,
@@ -1289,7 +1290,81 @@ Shop page
 /* product details end */
 
 
-
+/* Product details 2 */
+.product-details{
+	padding: 80px 0;
+}
+.product-slide-wrapper {
+    position: relative;
+    height: 100%;
+    background:#183244;
+	padding: 30px;
+}
+.product-slide-wrapper .product-slider .slide-item{ 
+}
+.product-slide-wrapper .product-slider .slide-item img{
+     width: 100%;
+}
+.product-slide-wrapper .productSlide-controller .prev,
+.product-slide-wrapper .productSlide-controller .next{
+	position: absolute;
+	top: 50%; 
+	transform: translateY(-50%);
+	z-index: 9;
+	width: 32px;
+	height: 32px;
+	background: #ffffff;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.product-slide-wrapper .productSlide-controller .prev{
+	left: 10px;
+}
+.product-slide-wrapper .productSlide-controller .next{
+	right: 10px;
+}
+.product-details .product-description{
+	padding: 45px;
+	background: #ffffff;
+	box-shadow: 0 0 37px 0 #0000001A;
+}
+.product-details .product-description .title{
+	color: #FF4A17;
+	font-size: 32px;
+	text-transform: capitalize;
+	font-weight: 700;
+	line-height: 42px;	
+	margin-bottom: 30px;
+}
+.product-details .product-description h3,
+.product-details .product-description h4,
+.product-details .product-description h5,
+.product-details .product-description h6{
+	color: #000000;
+	opacity: 80%;
+	margin-bottom: 15px;
+}
+.product-details .product-description ul li{
+	font-size: 16px;
+	font-weight: 300;
+	color: #000000;
+	opacity: 80%;
+	font-family: 'Poppins', sans-serif;
+	line-height: 35px;
+}
+.product-details .product-description ul li::before{
+	content: '\f30c';
+	font-family: 'Font Awesome 5 Free';
+	display: inline-block;
+	font-weight: 700;
+	transform: rotate(45deg);
+	-ms-transform: rotate(45deg);  
+	-webkit-transform: rotate(45deg); 
+	margin-right: 10px;
+}
+/* Product details 2 end */
 
 
 
